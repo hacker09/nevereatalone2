@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/icon"
+            android:id="@+id/img_icon_login"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_icon_login">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_login"
+                android:textColor="@color/colorGreen"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                />
+            <EditText
+                android:layout_margin="10dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail"
+                android:hint="@string/enter_email"
+                />
+            <EditText
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPassword"
+                android:hint="@string/enter_password"
+                />
+            <Button
+                android:layout_margin="10dp"
+                android:text="@string/login"
+                android:textColor="@color/colorGreen"
+                android:background="@color/colorWhiteGreen"
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSingUp"
+                android:text="@string/not_account"
+                android:textColor="@color/colorGreen"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
