@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "925937099010",
+    "firebase_url": "https://nevereatalone-23833.firebaseio.com",
+    "project_id": "nevereatalone-23833",
+    "storage_bucket": "nevereatalone-23833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925937099010:android:a238d09532b4f24b",
+        "android_client_info": {
+          "package_name": "com.example.lambui.nevereatalone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925937099010-pdn37jrruoim68sa8afp9lbrf8fi8pbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lambui.nevereatalone",
+            "certificate_hash": "967b404c292efda99a9ca51f3348a1f477ec346f"
+          }
+        },
+        {
+          "client_id": "925937099010-7kscogju0c4djnsf9srpm93m26dc31ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9SnzCQNVvHIz-wbtDulcz9C9w5vurmyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925937099010-7kscogju0c4djnsf9srpm93m26dc31ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
